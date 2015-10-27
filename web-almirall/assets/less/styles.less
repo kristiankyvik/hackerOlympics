@@ -1,0 +1,335 @@
+@LH_Font_SansSerif: "futura-pt" ;
+@LH_Font_Serif: "adobe-caslon-pro", serif;
+
+@smoke_white: #F6F2ED;
+
+// #E1DAD5
+//#F6F2ED;
+
+html, body {
+	height: 100%;
+}
+body {
+	padding: 50px 30px 30px;
+	font-family: @LH_Font_SansSerif;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	-o-font-smoothing: antialiased;
+}
+
+h2 {
+	text-transform: uppercase;
+  font-weight: 600;
+  font-size: 1.5em;
+  letter-spacing: 2px;
+}
+
+// ############## BOOTSTRAP TWEAKS #######
+
+.row.no-gutters {
+   margin-right: 0;
+   margin-left: 0;
+}
+.row.no-gutters > [class^="col-"],
+.row.no-gutters > [class*=" col-"] {
+   padding-right: 0;
+   padding-left: 0;
+}
+
+// ##############  NAVBAR  ###############
+.navbar-default {
+	background-color: @smoke_white;
+	.nav-brand {
+		float: left;
+		padding: 14px 0 0 10px;
+		font-size: 1.23em;
+	}
+	.navbar-toggle {
+	  float: left;
+	  margin: 10px auto auto 22px;
+	  &:focus, &:hover {
+	  	background-color: transparent;
+	  }
+	}
+}
+
+.navmenu {
+	background-color: @smoke_white;
+	.navmenu-brand, li>a {
+		color: black;
+	}
+}
+
+
+@media (min-width: 0) {
+  .navbar-toggle {
+    display: block; /* force showing the toggle */
+    border: 0;
+  }
+}
+
+@media (min-width: 992px) {
+  .navbar {
+  	width: 100%;
+    right: auto;
+    background: white;
+    border: none;
+  }
+  // body {
+  //   padding: 0;
+  // }
+}
+
+
+// ############  SECTIONS ################
+section {
+	min-height: 80%;
+	position: relative;
+	background-color: @smoke_white;
+	//margin: 15px 0;
+	padding-bottom: 60px;
+
+	&.info {
+		padding-top: 40px;
+		.col-pic{
+			text-align: center;
+			img {
+				width: 80%;
+				height: auto;
+				margin-top: 96px;
+			}
+		}
+		.col-text {
+			h2 {
+				&:after {
+					content: " ";
+			    width: 45px;
+			    height: 2px;
+			    background-color: #00253d;
+			    display: block;
+			    margin-top: 24px;
+				}
+			}
+			.highlight {
+				font-family: @LH_Font_Serif;
+				font-size: 2.3em;
+		    margin: 28px 0;
+		    &:after {
+		    	content: " ";
+	  	    width: 45px;
+	  	    height: 2px;
+	  	    background-color: #00253d;
+	  	    display: block;
+	  	    margin-top: 18px;
+		    }
+			}
+			.text-box {
+				font-family: @LH_Font_Serif;
+				font-size: 1.3em;
+			}
+		}
+		&.img-right {
+			h2 {
+				float: right;
+				clear: right;
+				&:after {
+					margin-left: 81%;
+				}
+			}
+			text-align: right;
+			.highlight {
+				padding-left: 20%;
+				float: right;
+				clear: right;
+				&:after {
+					margin-left: 89%;
+				}
+			}
+			.text-box {
+				padding-left: 25%;
+				float: right;
+				clear: right;
+			}
+		}
+		&.img-left {
+			.highlight {
+				padding-right: 20%;
+			}
+			.text-box {
+				padding-right: 25%;
+			}
+		}
+	}
+}
+
+
+
+
+#hero {
+	//margin:0 0 15px 0;
+	height: 90%;
+	background-image: url('https://upload.wikimedia.org/wikipedia/commons/2/21/Fabra_Observatory,_from_Tibidabo,_Barcelona.jpg');
+	background-size: cover;
+	background-position: center center;
+	.hero-caption {
+		position:	absolute;
+		margin: auto;
+		top: 0; bottom: 0; left: 0; right:0;
+		height: 100px;
+		text-align: center;
+		color: white;
+	}
+}
+
+#welcome {
+		#firma {
+			width: 300px;
+			margin: 37px 10% 0 0;
+			text-align: left;
+			float: right;
+			.media-body {
+				padding-left: 10px;
+				.title {
+					padding-top: 5px;
+					font-size: 10px;
+					line-height: 12px;
+					div:first {
+						font-weight: 500;
+					}
+				}
+			}
+			#firma-dig {
+				height: 67px;
+			}
+			#mona {
+				height: 71px;
+			}
+		}
+}
+
+.gallery-section {
+	margin: 20px 0;
+	padding: 0;
+	min-height: 0;
+	width: 100%;
+
+	&.wel-gal {
+		.gal-left, .gal-right, .gal-center {
+			height: 500px;
+		}
+
+		.gal-left {
+			background-image: url('http://res.cloudinary.com/dfvoztskv/image/upload/e_improve/v1445878092/Edificio1_abqard.jpg');
+			background-size: cover;
+			background-position: bottom;
+		}
+
+		.gal-right {
+			background-color: @smoke_white;
+		}
+	}
+
+	&.lib-gal {
+		.gal-left, .gal-right, .gal-center {
+			height: 400px;
+		}
+		.gal-left {
+			background-image: url('http://res.cloudinary.com/dfvoztskv/image/upload/v1445878640/Sala1_h0oatd.jpg');
+			background-size: cover;
+			background-position: bottom;
+		}
+	}
+
+	&.lib-gal-2 {
+		.gal-left, .gal-right{
+			height: 410px;
+		}
+
+		.gal-left {
+			background-image: url('http://res.cloudinary.com/dfvoztskv/image/upload/v1445878647/Sala7_atsj4f.jpg');
+			background-size: cover;
+			background-position: center center;
+		}
+
+		.gal-right {
+			background-color: @smoke_white;
+		}
+	}
+
+
+
+}
+
+.side-box {
+	font-family: @LH_Font_SansSerif;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 115px 40px;
+	letter-spacing: 3px;
+}
+
+#history {
+	img {
+		width: 55%;
+	}
+
+}
+
+#library {
+	margin: 30px 0;
+	img {
+		width: 70%;
+	}
+
+}
+
+
+
+footer {
+	position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  padding: 10px 30px;
+  font-size: 12px;
+  background: #fff;
+}
+
+
+
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
+
+
+
+
+
+
