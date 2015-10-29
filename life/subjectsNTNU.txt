@@ -1,0 +1,55 @@
+HOST (AUTUMN)
+TIØ4145 - Finansstyring for foretak
+TIØ4117 - Mikroøkonomi
+TIØ4265 - Strategisk ledelse
+TIØ4180 - Innovation Management and Strategy
+TIØ4500 - Anvendt økonomi og optimering, fordypningsprosjekt
+
+
+VAR (SPRING)
+TIØ4317 - Empiriske og kvantitative metoder i finans
+TIØ4136 - IKT økonomi - Planlegging og Økonomi av IKT
+EiT - Melde meg inn?
+TDT4173 - Machine Learning and Case-Based Reasoning
++ Teknisk Emne?
+
+Kings College
+TDT4280 - Multi Agent Systems and Game Theory
+
+
+
+TIØ4145 - Corporate Finance . fordypningskvalifiserende emne 4. årskurs
+TIØ4130 - Optimization Methods with Applications – fordypningskvalifiserende emne 4. Årskurs
+TIØ4136 - ICT Economics - Planning and Economics of Tele and Information Services – ok valgbart indøk emne
+TIØ4265 - Strategic Management (Valgbar teknisk/økonomisk emne fra fagretning #2) fordypningskvalifiserende emne 4. årskurs
+TDT4280 - Multi Agent Systems and Game Theory (Teknisk emne fra fagretning #1) (Dekket i Kings College) ?
+TDT4215 - Web Intelligence (Teknisk emne fra fagretning #2)
+EiT
+TIØ4116 - Microeconomics (Henge fag fra tredje år) ok
+
+TIØ4117 - Empirisk Finans
+TIØ 4140 - Prosjekt Finans
+
+
+Plan:
+
+HØST
+
+TIØ4145 - Finansstyring for foretak (Mandatory!)
+TIØ4265 - Strategisk ledelse (Mandatory!)
+TIØ4117 - Mikroøkonomi (Mandatory!)
+
+VÅR
+TIØ4317 - Empiriske og kvantitative metoder i finans (Mandatory!)
+TDT4173 - Machine Learning and Case-Based Reasoning (teknisk emne fra fagretning #2)
+TDT4215 - Web Intelligence (Valgbart økonomisk/teknisk emne #1)
+TDT4300 - Datavarehus og datagruvedrift (Valgbart økonomisk/teknisk emne #2)
+EiT
+
+
+6. Valgbart økonomisk/teknisk emne
+
+7. valgbart økonomisk/teknisk emne
+
+8. EiT
+
